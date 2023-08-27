@@ -1,7 +1,7 @@
 var gc = new GameCanvas();
 
 
-var sentences = ["祝张枫霁",  "o(*≧▽≦)ツ ヾ(≧▽≦*)o","生日快乐","永远幸福"];
+var sentences = ["   祝张枫霁",  "   o(*≧▽≦)ツ ヾ(≧▽≦*)o","   生日快乐","   永远幸福"];
 var sentenceIndex = 0;
 var points = textToPoints(sentences[sentenceIndex], 16, "幼圆");
 setInterval(function() {
